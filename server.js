@@ -1,6 +1,6 @@
 var http = require("http");
 var os = require("os");
-var port = 8080;
+var port = 80;
 http.createServer(function(request, response) {
     console.log("New request arrived.");
     response.writeHead(200, {"Content-Type": "text/plain"});
